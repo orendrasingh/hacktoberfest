@@ -20,21 +20,21 @@ def slp():
     s = '.'
     print("\n","\n","\n","\n",)
     sys.stdout.write( '              \033[1;33mPlease wait While \033[1;37;40m loading       ' )
-    for i in range(3):
+    for i in range(10):
             sys.stdout.write( s )
             sys.stdout.flush()
-            time.sleep(0.4)
+            time.sleep(0.14)
     print("\r")
 def room(a): # for room type
     global amt
     global rec
     print("We have different types of rooms as per there services..")
     print("-" * 60)
-    print("1. Room  with AC cost = 1500")
+    print("1. Room  with AC cost = 15300")
     print('\r')
-    print("2. Non - AC Room cost = 800")
+    print("2. Non - AC Room cost = 8300")
     print("-" * 60)
-    b = int(input("Enter the choice = "))
+    b = int(input("Enter the choice here of the room = "))
     print("_" * 60)
     if (b == 1):
         print(" You have selected Ac room ")
