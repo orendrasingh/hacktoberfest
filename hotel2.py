@@ -200,7 +200,10 @@ def nonv(): # for non veg list
     amt = list2[a] + amt
     rec.append(list3[a])
     chs(list,list2,list3)
-def veg(): # for veg content
+
+
+#function for veg type item
+def veg():
     global rec
     global amt
     print("Select Items from Veg. Category")
@@ -219,7 +222,10 @@ def veg(): # for veg content
     amt=list2[a]+amt
     rec.append(list3[a])
     chs(list,list2,list3)
-def bread(): # for bread types content
+
+
+#function for bread
+def bread(): 
     global rec
     global amt
     print("Select Bread & Rice Types.")
