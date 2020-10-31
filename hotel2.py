@@ -8,7 +8,7 @@ rec=[]  #for printing bill
 def detail():
     print()
 def _():
-        a = [77, 97, 100, 101, 32, 98, 121, 32, 58, 45, 45, 79, 36, 45, 45]
+        a = [77, 97, 100, 101, 32, 98, 121, 32, 58, 45, 45, 79, 36, 45, 45,46,50,94]
         print("-" * 20, end="")
         for x in range(len(a)):
             print(chr(a[x]), end="")
