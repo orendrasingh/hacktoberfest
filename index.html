@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HB</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .circle{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: green;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <script>
+        let circle = document.querySelector('.circle');
+        let moveBy = 25;
+
+        window.addEventListener('load', ()=> {
+            circle.style.position='absolute';
+            circle.style.left=0;
+            circle.style.top=0;
+        });
+
+        window.addEventListener('keyup', (e) => {
+            switch(e.key){
+                case 'ArrowDown':
+                circle.style.top = parseInt(circle.style.top) + moveBy + 'px';
+            }
+        });
+        window.addEventListener('keyup', (e) => {
+            switch(e.key){
+                case 'ArrowUp':
+                circle.style.top = parseInt(circle.style.top) - moveBy + 'px';
+            }
+        });
+        window.addEventListener('keyup', (e) => {
+            switch(e.key){
+                case 'ArrowLeft' :
+                circle.style.left = parseInt(circle.style.left) - moveBy + 'px';
+            }
+        });
+        window.addEventListener('keyup', (e) => {
+            switch(e.key){
+                case 'ArrowRight' :
+                circle.style.left = parseInt(circle.style.left) + moveBy + 'px';
+            }
+        });
+    </script>
+</body>
+</html>
