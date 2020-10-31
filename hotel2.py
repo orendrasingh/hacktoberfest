@@ -1,6 +1,8 @@
 #declaring global variable 
 global amt # total bill
 global rec
+
+#setting default amout hundred 
 amt=100
 rec=[]  #for printing bill
 def detail():
@@ -74,7 +76,9 @@ def room(a): # for room type
     else:
         print("Wrong input")
         room(a)
-def bill():  #definition of bill
+
+#defining function for creating  bill
+def bill():  
     global rec
     global amt
     print('\r')
