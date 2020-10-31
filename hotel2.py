@@ -34,7 +34,7 @@ def room(a): # for room type
     print('\r')
     print("2. Non - AC Room cost = 8300")
     print("-" * 60)
-    b = int(input("Enter the choice here  = "))
+    b = int(input("Enter the choice here of the room = "))
     print("_" * 60)
     if (b == 1):
         print(" You have selected Ac room ")
