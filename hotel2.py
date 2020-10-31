@@ -1,3 +1,4 @@
+#declaring global variable 
 global amt # total bill
 global rec
 amt=100
