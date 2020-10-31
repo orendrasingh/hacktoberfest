@@ -1,3 +1,5 @@
+#initializing class for students
+
 class Clas:
         total_stu = 0
         def __init__(self,first,last,mother,father,roll,clas,phone,mail):
@@ -14,6 +16,7 @@ class Clas:
                  return self.first.capitalize()+" "+self.last.capitalize()
 
 
+#importing database psycopg
 import psycopg2
 db=psycopg2.connect(database='student',user='postgres',host='127.0.0.1',password='12345678',port=5432)
 cur=db.cursor()
