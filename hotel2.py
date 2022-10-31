@@ -95,9 +95,9 @@ def bill():
 
     print("-"*60)
     print(" Total bill amount is = ",amt)
-    print("-" * 60)
+    print("-" * 70)
     print("*"*5,"| Thankyou kindly, visit again |","*"*5)
-    print("-" * 60)
+    print("-" * 70)
     _()
     print("=" * 60)
     print("\r")
